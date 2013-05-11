@@ -1,0 +1,447 @@
+	@media all	and (orientation: portrait) { 
+/*		#menu {
+			display: block !important;
+			width: auto !important;
+		}
+		#container {
+			display: block !important;
+		}*/
+	}
+
+
+
+@media all and (max-width:500px) {
+
+	#menu {
+		float: left !important;
+		height: initial !important;
+		position: initial !important;
+		margin: 5px !important;
+		border-right: none !important;
+	}
+
+	#container {
+		width: 320px !important;
+/*		width: 96% !important;
+		padding: 0 2%;*/
+	}
+
+	#singlework {
+		margin: 0 0 !important;
+		min-width: 0px !important;
+		padding-left: 0px !important;
+	}
+
+	#singlework img {
+		margin: 30px 0 0 6!important;
+	}
+
+	.vertical img {
+		max-width: 300px !important;
+	}
+
+	#caption {
+		float: right !important;
+		position: initial !important;
+		margin: 5px !important;
+		margin-right: 14px !important;
+	}
+
+	#contact {
+		float: initial !important;
+		padding-top: 130px !important;
+		padding-left: 26px !important;
+	}
+
+	#cv, #biblio {
+		padding-left: 0px !important;
+		width: 100%;
+	}
+
+	#cv {
+		margin-top: 20px !important;
+	}
+
+	#line {
+		display: none;
+	}
+
+	#portfolio {
+		margin-left: 21 px !important;
+	}
+
+	ul#portfolio li {
+		margin: 5px !important; 
+	}
+
+	div.row .col {
+		display: block !important;
+		float: initial !important;
+		width: 96% !important;
+		/*padding: 2% !important;*/
+		margin: 0px !important;
+	}
+
+	div.row .col.year {
+		padding: 20px 0px 10px 0px !important;
+	}
+
+	div.row .col.title {
+		margin-bottom: 0px !important;
+		padding: 5px 0px !important;
+	}
+
+	div.row .col.venue {
+		margin-bottom: 0px !important;
+		padding: 3px 0px !important;
+	}
+
+	div.row .col.kind {
+		padding-bottom: 10px !important;
+	}
+
+	div.row .col.bibtitle {
+		padding-bottom: 10px !important;
+	}
+
+	div.row .col.pub {
+		padding-bottom: 10px !important;
+	}
+
+}
+
+@media all and (min-width: 501px) {
+
+	#menu {
+		/*float: left !important;
+		position: initial !important;*/
+		margin: 10px 0 0 10px;
+	}
+
+	#portfolio {
+		margin-left: 251px !important;
+	}
+
+	ul#portfolio li {
+		margin: 10px !important; 
+	}
+
+	#cv, #biblio {
+		margin-left: 313px !important;
+		font: Georgia;
+	}
+
+	div.row .col {
+		display: block !important;
+		float: initial !important;
+		width: 96% !important;
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+
+	div.row .col.year {
+		padding: 20px 0px 10px 0px !important;
+	}
+
+	div.row .col.title {
+		margin-bottom: 0px !important;
+		padding: 5px 0px !important;
+	}
+
+	div.row .col.venue {
+		margin-bottom: 0px !important;
+		padding: 3px 0px !important;
+	}
+
+	div.row .col.kind {
+		padding-bottom: 10px !important;
+	}
+
+	div.row .col.bibtitle {
+		padding-bottom: 10px !important;
+	}
+
+	div.row .col.pub {
+		padding-bottom: 10px !important;
+	}
+
+}
+
+/*.clearfix:after {
+	content: " ";
+	display: table;
+}
+*/
+
+
+
+#menu {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 20px 0 0 20px;
+	width: 220px;
+	font-family: 'Raleway Dots';
+	font-size: 18pt;
+	background: white;
+	height: 100%;
+}
+
+#menu p {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {
+	/*display: block;*/
+	text-decoration: none;
+	color: #505050;
+}
+
+a:visited {
+	color: #505050;
+}
+
+a:hover {
+	color: lime;
+}
+
+a .scroll {
+	position: fixed !important;
+}
+
+#portfolio {
+	margin-left: 300px;
+}
+
+
+ul#portfolio li {
+	float: left;
+	margin: 10px; 
+	background: purple;
+	list-style-type: none;
+}
+
+ul#portfolio li:hover {
+	background: yellow;
+}
+
+ul#portfolio li:hover:nth-child(1n) { background: DeepPink; }
+ul#portfolio li:hover:nth-child(2n) { background: gray; }
+ul#portfolio li:hover:nth-child(3n) { background: aqua; }
+ul#portfolio li:hover:nth-child(4n) { background: purple; }
+ul#portfolio li:hover:nth-child(5n) { background: lime; }
+ul#portfolio li:hover:nth-child(6n) { background: yellow; }
+
+ul#portfolio li:active {
+	background: black;
+}
+
+ul#portfolio li a img {
+}
+
+ul#portfolio li a {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+ul#portfolio li:hover a img {
+	display: none;
+}
+
+
+#container {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background: white;
+}
+
+#singlework {
+	margin-left: 250px;
+	margin-top: 0px;
+}
+
+.horizontal {
+	/*min-width: 1215px;*/
+}
+
+.vertical {
+/*	min-width: 1100px; */
+}
+
+#singleworkver img {
+	display: block;
+	padding-top: 30px;
+	padding-left: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#singleworkhor img {
+	display: block;
+	padding-top: 110px;
+	padding-left: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+div.image-contain {
+	position: relative;
+
+}
+
+#caption {
+	position: fixed;
+	top: 150px;
+	left: 21px;
+	background-repeat: repeat;
+	width: 170px;
+	padding: 10px;
+	background: #EFEFEF;
+	color: #505050;
+	font-size: 10pt;
+	line-height: 1.4;
+	/*border-radius: 6px;*/
+}
+
+.clearfix {
+	clear: both;
+
+}
+
+#cv, #biblio, #education {
+	float: left;
+	margin-top: 33px;
+	text-align: left;
+	color: #404040;
+	font-family: 'Georgia';
+	font-size: 10pt;
+}
+
+#biblio, #education {
+	margin: 19 auto 200;
+}
+
+#contact {
+	position: fixed;
+	padding-top: 33px;
+	padding-left: 300px;
+	font: 'Raleway Dots';
+
+}
+
+h1, h2 {
+	color: black;
+	font: 'Raleway' !important;
+	font-size: 17pt;
+}
+
+.table {
+	valign: top;
+	cellspacing: 15px;
+	float: left;
+}
+
+/*#line {
+	float: left;
+	width: 5px;
+	height: 2000px;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: gray;
+	margin-left: 251px;
+}*/
+
+/* changing tables to divs */
+
+
+
+div.row {
+	display: block;
+	width: 100%;
+}
+
+div.row .col {
+	float: left;
+	padding: 2px 0;
+	margin-right: 2%;
+}
+
+div.row .col.year {
+	width: 100%;
+	max-width: 50px;
+	margin-right: 4%;
+	font-weight: bold;
+	color: aqua;
+	font-size: 12pt;
+}
+
+div.row .col.title {
+	width: 25%;
+	font-style: italic;
+	font-size: 13pt;
+}
+
+div.row .col.venue {
+	width: 38%;
+}
+
+div.row .col.kind {
+	width: 24%;
+}
+
+div.row .col.bibtitle {
+	width: 85%;
+	font-style: italic;
+	font-size: 13pt;
+}
+
+div.row .col.pub {
+	width: 28%;
+}
+
+div.row .col.author {
+	width: 18%;
+	margin-left: 48px;
+}
+
+/* Flair image treatment */
+
+#flair {
+	display: block;
+}
+
+/*single work navigation*/
+
+.scroll {
+	position: fixed !important;
+	top: 281px;
+	left: 15px;
+	width: 140px;
+	padding: 10px;
+	font-size: 14pt;
+	font-family: 'Raleway Dots';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

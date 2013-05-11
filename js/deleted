@@ -1,0 +1,23 @@
+<!-- in header of test.html -->
+
+<script src="js/jquery.min.js"></script>
+	<script src="js/master.js"></script>
+
+<!-- At bottom of test.html -->
+
+<script>
+
+$(document).ready(function() {
+
+	 This is basic - uses default settings 
+
+	
+});
+
+
+
+
+</script>
+
+
+<!-- class="last" --> S
